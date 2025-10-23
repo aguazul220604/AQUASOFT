@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Lobster&family=Pacifico&display=swap");
+body {
+    font-family: "Faculty Glyphic", sans-serif;
+    background: linear-gradient(to bottom, #91caffcb, #1d448b);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.login-image {
+    width: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.login-container {
+    background-color: #ffffff;
+}
+.login-form {
+    width: 40%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-logo {
+    max-width: 120px;
+    margin-bottom: 1rem;
+}
+.login-form h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #002657;
+}
+.login-form .form-floating label {
+    color: #002a79;
+}
+.login-form .form-control {
+    border-color: #4db6ac;
+}
+.login-form .btn-primary {
+    background-color: #002a79;
+    border-color: #002a79;
+}
+.login-form .btn-primary:hover {
+    background-color: #204280;
+    border-color: #091638;
+}

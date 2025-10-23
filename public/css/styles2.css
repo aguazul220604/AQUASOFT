@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Lobster&family=Pacifico&display=swap");
+#sidebar {
+    width: 250px;
+    height: 107vh;
+    background-color: #354e2d;
+    transition: width 0.4s ease;
+}
+#sidebar.collapsed {
+    width: 80px;
+}
+.logo-img {
+    transition: width 0.4s ease;
+    margin-bottom: 5px;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#sidebar.collapsed .logo-img {
+    width: 40px;
+}
+.link-text {
+    transition: opacity 0.4s ease;
+}
+#sidebar.collapsed .link-text {
+    opacity: 0;
+    pointer-events: none;
+}
+.content {
+    transition: margin-left 0.4s ease;
+    margin-left: 250px;
+}
+#sidebar.collapsed ~ .content {
+    margin-left: 80px;
+}
+.sidebar.collapsed .icon {
+    font-size: 1.8em;
+    margin-left: 10px;
+}
+.bg-dashboard {
+    background-color: #354e2d;
+}
+.bg-top {
+    background-color: #c6dcbf;
+}
+#menu-toggle .icon-color {
+    color: #ffffff;
+}
+#menu-toggle:hover {
+    color: #ffffff;
+    background-color: #354e2d;
+}
+#menu-toggle:hover .icon-color {
+    color: #ffffff;
+    background-color: #354e2d;
+}
+.text-principal {
+    color: #ffffff;
+    font-family: "Faculty Glyphic", sans-serif;
+}
+.text-principal2 {
+    color: #000000;
+    font-family: "Faculty Glyphic", sans-serif;
+}
+.text-elements {
+    font-family: "Faculty Glyphic", sans-serif;
+}
+.text-sidebar {
+    color: #ffffff;
+    font-family: "Faculty Glyphic", sans-serif;
+}
+@media (max-width: 768px) {
+    #sidebar {
+        width: 0;
+        overflow: hidden;
+        transition: width 0.3s ease;
+    }
+    #sidebar.active {
+        width: 250px;
+    }
+    .navbar {
+        width: 100%;
+        margin: 0;
+    }
+    .text-title {
+        font-size: 1rem;
+    }
+    .content {
+        margin-left: 0;
+        padding-top: 70px;
+    }
+}
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+.fade-in.show {
+    opacity: 1;
+}
+.fade-in.hide {
+    opacity: 0;
+}
+#content_card {
+    height: 530px;
+    overflow-y: auto;
+}
+#content_card2 {
+    height: 575px;
+    overflow-y: auto;
+}
+#content_card2_g {
+    height: 550px;
+    overflow-y: auto;
+}
+#content_card3 {
+    height: 575px;
+    overflow-y: auto;
+}
+.nav-tabs .nav-link {
+    color: #000000;
+    background-color: #ffffff;
+    padding: 10px 15px;
+    font-family: "Faculty Glyphic", sans-serif;
+}
+.nav-tabs .nav-link.active {
+    background-color: #354e2d;
+    color: #fff;
+    font-family: "Faculty Glyphic", sans-serif;
+}
+.nav-item {
+    margin-right: 5px;
+}
+.nav-item .active {
+    background-color: #fff;
+    color: #354e2d;
+    border-radius: 5px;
+}
+.nav-item .active .link-text {
+    color: #354e2d;
+}
+.nav-item .active i {
+    color: #354e2d;
+}
+
+.nav-item:hover {
+    background-color: #ffffffa2;
+    color: #000000;
+    border-radius: 5px;
+}
+.nav-item:hover .link-text {
+    color: #000000;
+}
+.nav-item:hover i {
+    color: #000000;
+}
+.text-base {
+    font-family: "Faculty Glyphic", sans-serif;
+    font-size: larger;
+    color: #354e2d;
+    font-weight: bold;
+}
+.table {
+    color: white;
+    background-color: #2c2c2c;
+    width: auto;
+    height: 60px;
+}
+.state-indicator {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+.available {
+    background-color: green;
+}
+.occupied {
+    background-color: red;
+}
+select {
+    font-family: "Faculty Glyphic", sans-serif;
+    font-size: 16px;
+    color: #354e2d;
+    background-color: #f9f9f9;
+    border: 2px solid #354e2d;
+    border-radius: 8px;
+    padding: 8px 12px;
+    outline: none;
+    cursor: pointer;
+    appearance: none;
+    transition: all 0.3s ease;
+}
+select:hover {
+    background-color: #e6f2e3;
+}
+select:focus {
+    border-color: #72b685;
+    box-shadow: 0 0 4px #72b685;
+}
+option {
+    font-family: "Faculty Glyphic", sans-serif;
+    font-size: 16px;
+    color: #354e2d;
+    background-color: #ffffff;
+}
+select option:checked {
+    background-color: #72b685;
+    color: #ffffff;
+}
+#servicios .bi {
+    font-size: 6rem;
+    color: #555;
+}
+.input_escaner {
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    color: #ff0000;
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: bold;
+}
+#logout-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #354e2d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-family: "Faculty Glyphic", sans-serif;
+}
+#logout-button:hover {
+    background-color: #2b3f26;
+    color: #ffffff;
+}
+#logout-button i {
+    margin-left: 5px;
+    font-size: 18px;
+    transition: transform 0.3s ease-in-out;
+}
+#logout-button:hover i {
+    transform: translateX(5px);
+}
+#ages {
+    max-width: 370px; 
+    max-height: 370px; 
+}
