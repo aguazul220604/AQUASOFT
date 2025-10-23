@@ -68,8 +68,8 @@
   </ul>
 
   <h3>📸 Email Evidence</h3>
-  <img src="assets/img13.png" alt="Email Confirmation 1" width="600">
-  <img src="assets/img14.png" alt="Email Confirmation 2" width="600">
+  <img src="assets/img13.jpg" alt="Email Confirmation 1" width="600">
+  <img src="assets/img14.jpg" alt="Email Confirmation 2" width="600">
 
   <h2>🧠 Leadership & Development</h2>
   <p>
