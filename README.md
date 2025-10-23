@@ -67,9 +67,30 @@
     <li>QR code ticket for scanning at the entrance</li>
   </ul>
 
-  <h3>📸 Email Evidence</h3>
-  <img src="assets/img13.jpg" alt="Email Confirmation 1" width="600">
-  <img src="assets/img14.jpg" alt="Email Confirmation 2" width="600">
+<h3>📸 Email Evidence</h3>
+<div align="center">
+  <img src="assets/img13.jpg" alt="Email Confirmation 1" width="35%" style="margin: 5px; border-radius: 10px;">
+  <img src="assets/img14.jpg" alt="Email Confirmation 2" width="35%" style="margin: 5px; border-radius: 10px;">
+</div>
+
+<br>
+
+<h3>📄 E-Ticket and Publication Evidence</h3>
+<div align="center">
+  <img src="assets/img15.jpg" alt="E-ticket Thermal Spa" width="70%" style="border-radius: 10px; margin-bottom: 10px;">
+</div>
+
+<p align="justify">
+🧾 <strong>E-ticket for entrance control to the Thermal Spa</strong><br>
+🏛️ <strong>Published in:</strong> <em>Journal of Economic Development, Technological Change and Growth</em><br>
+🧠 <strong>Focus:</strong> Information systems design and backend architecture<br>
+🔗 <a href="https://www.rinoe.org/western-sahara/Journal_Economic_Development_Technological_Chance_and_Growth/vol9num15/Journal-Economic_Development_Technological_Chance_and_Growth_V9_N15_4.pdf" target="_blank" rel="noopener noreferrer">
+View publication (RINOE – Western Sahara Edition)
+</a><br><br>
+👥 <strong>Collaboration:</strong> Universidad Politécnica de Tulancingo (UPT) and REHICO (Red Hidalguense de Cómputo)<br>
+🪪 <strong>ORCID ID:</strong> <a href="https://orcid.org/0009-0008-9110-2809" target="_blank" rel="noopener noreferrer">0009-0008-9110-2809</a><br>
+📚 Recognized by <strong>Web of Science</strong> indexation.
+</p>
 
   <h2>🧠 Leadership & Development</h2>
   <p>
